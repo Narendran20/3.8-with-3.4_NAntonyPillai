@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="version5.css">
+<link rel="stylesheet" href="version6.css">
 </head>
 <body style="font-family:Verdana;color:#aaaaaa;">
 
@@ -16,11 +16,11 @@
 <div class="image"><p>Image</p></div>
 
 <div class="content">
-<div class="textalign">
-<h1>Content</h1>
-<h2>Subheader</h2>
-<h2>Subheader</h2>
-</div>
+<div class="slideshow">Slideshow</div>
+
+<div class="box1">box1</div>
+<div class="box2">box2</div>
+
 </div>
 
 <div class="footer"><h1>Footer</h1></div>
