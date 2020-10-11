@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="version6.css">
+<!-- The below line of code is used so that the browser can use my responsive styling. Without 
+this, a mobile browser will used a zoomed-out version of my desktop site-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="version7.css">
 </head>
 <body style="font-family:Verdana;color:#aaaaaa;">
 
-
+<div class="container">
 <div class="header">
-  <h1>Header</h1>  
+<div class="textalign1">  
+<h1>Header</h1>  
+</div>
 </div>
 
-<div class="Navigation">Navigation</div>
-
+<div class="navigation">Navigation</div>
 <div class="image"><p>Image</p></div>
 
 <div class="content">
-<div class="slideshow">Slideshow</div>
+<div class="slideshow"><h1>Slideshow</h1></div>
 
-<div class="box1">box1</div>
-<div class="box2">box2</div>
+<div class="box1"><h1>box1</h1></div>
+<div class="box2"><h1>box2</h1></div>
 
 </div>
 
 <div class="footer"><h1>Footer</h1></div>
+</body>
+</div>
