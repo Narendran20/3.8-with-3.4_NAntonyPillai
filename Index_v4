@@ -4,9 +4,12 @@
 <!-- The below line of code is used so that the browser can use my responsive styling. Without 
 this, a mobile browser will used a zoomed-out version of my desktop site-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="version7.css">
+<link rel="stylesheet" href="version8.css">
 </head>
-<body style="font-family:Verdana;color:#aaaaaa;">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+</style>
+<body style="font-family: 'Nunito Sans', sans-serif;color:#aaaaaa;">
 
 <div class="container">
 <div class="header">
@@ -19,13 +22,14 @@ this, a mobile browser will used a zoomed-out version of my desktop site-->
 <div class="image"><p>Image</p></div>
 
 <div class="content">
-<div class="slideshow"><h1>Slideshow</h1></div>
+<div class="slideshow"><h1>Bags</h1></div>
 
-<div class="box1"><h1>box1</h1></div>
-<div class="box2"><h1>box2</h1></div>
+<div class="box1"><h1>Bags</h1></div>
+<div class="box2"><h1>Cart</h1></div>
 
 </div>
 
 <div class="footer"><h1>Footer</h1></div>
 </body>
 </div>
+
