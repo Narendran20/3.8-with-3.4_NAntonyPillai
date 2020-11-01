@@ -4,14 +4,17 @@
 <!-- The below line of code is used so that the browser can use my responsive styling. Without 
 this, a mobile browser will used a zoomed-out version of my desktop site-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="version8.css">
-</head>
+<link rel="stylesheet" href="version10.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+</script>
+ 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 </style>
+</head>
 <body style="font-family: 'Nunito Sans', sans-serif;color:#aaaaaa;">
 
-<div class="container">
+
 <div class="header">
 <div class="textalign1">  
 <h1>Header</h1>  
@@ -20,24 +23,53 @@ this, a mobile browser will used a zoomed-out version of my desktop site-->
 
 <div class="navigation">
 <div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="#about">Button</a>
+  <a class="active" href="version10.html">Home</a>
+  <a href="version10 page 2.html">Buy</a>
+  <a href="http://narendran.dx.am/contact.php">Contact</a>
 </div>
 </div>
+
+
+
 <div class="image"><p>Image</p></div>
 
 <div class="content">
-<div class="slideshow"><h1>Bags</h1></div>
+<div class="slideshow">
+ 
 
-<div class="box1"><h1>Bags</h1></div>
-<div class="box2"><h1>Cart</h1></div>
+
+   
+<div id="slideshow">
+   <div>
+     <img class="mySlides" src="images/nature 1.jpg" style="width:1330px; height:670px;">
+   </div>
+   <div>
+     <img class="mySlides" src="images/nature 2.jpg" style="width:1330px; height:670px;">
+   </div>  
+</div>
+
+
 
 </div>
 
-<div class="footer"><h1>Footer</h1></div>
+<div class="box1"><h1>Buy</h1></div>
+<div class="box2"><h1>Contact</h1></div>
+
+</div>
+
+<div class="footer"><h1>© Copyright Narendran Antony-Pillai, all rights reserved, Tawa College 2020</h1></div>
+<script>
+
+$("#slideshow > div:gt(0)").hide(); <!-- get its the images from slideshow > div and orders them using gt:() function, 0 is the first image and 1 is the second image -->
+setInterval(function() { <!-- sets display time for each image -->
+  $('#slideshow > div:first') <!-- setting and selecting the first image to display -->
+    .fadeOut(1000) <!-- fade out the current image in 1000 milliseconds -->
+    .next() <!-- bring in the next image -->
+    .fadeIn(1000) <!-- fade in the next image in 1000 milliseconds -->
+    .end() <!-- repeats the slideshow -->
+    .appendTo('#slideshow'); <!-- appending the css data -->
+}, 3000); <!-- this is how long the image displays to the user until the next image displays -->
+
+</script>
 </body>
-</div>
-
+</html>
