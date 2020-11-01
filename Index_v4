@@ -41,19 +41,21 @@ this, a mobile browser will used a zoomed-out version of my desktop site-->
    
 <div id="slideshow">
    <div>
-     <img class="mySlides" src="images/nature 1.jpg" style="width:1330px; height:670px;">
+     <img class="mySlides" src="images/nature 1.jpg" style="width:1330px; height:600px;">
    </div>
    <div>
-     <img class="mySlides" src="images/nature 2.jpg" style="width:1330px; height:670px;">
+     <img class="mySlides" src="images/nature 2.jpg" style="width:1330px; height:600px;">
    </div>  
 </div>
 
 
 
 </div>
+<div class="box3"><p>These standard reusable bags are long lasting and are very durable.</p></div>
+<div class="box4"><p>These premium bags come with a special design on them. These bags are guaranteed to be used for a lifetime.</p></div>
+<div class="box5"><h1>Box5</h1></div>
+<div class="box6"><h1>Box6</h1></div>
 
-<div class="box1"><h1>Buy</h1></div>
-<div class="box2"><h1>Contact</h1></div>
 
 </div>
 
@@ -73,3 +75,4 @@ setInterval(function() { <!-- sets display time for each image -->
 </script>
 </body>
 </html>
+
