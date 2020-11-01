@@ -4,7 +4,7 @@
 <!-- The below line of code is used so that the browser can use my responsive styling. Without 
 this, a mobile browser will used a zoomed-out version of my desktop site-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="version10.css">
+<link rel="stylesheet" href="version11.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js">
 </script>
  
@@ -16,6 +16,7 @@ this, a mobile browser will used a zoomed-out version of my desktop site-->
 
 
 <div class="header">
+<title>Products</title>
 <div class="textalign1">  
 <h1>Header</h1>  
 </div>
@@ -23,15 +24,18 @@ this, a mobile browser will used a zoomed-out version of my desktop site-->
 
 <div class="navigation">
 <div class="topnav">
-  <a class="active" href="version10.html">Home</a>
-  <a href="version10 page 2.html">Buy</a>
+  <a class="active" href="version11.html">Home</a>
+  <a href="version11 page 2.html">Products</a>
   <a href="http://narendran.dx.am/contact.php">Contact</a>
 </div>
 </div>
 
 
 
-<div class="image"><p>Image</p></div>
+<div class="image">
+<a href="version11.html">
+<img border="0" alt="W3Schools" src="images/Bags For Better Logo 2.png" width="150" height="105">
+</div>
 
 <div class="content">
 <div class="slideshow">
@@ -41,11 +45,14 @@ this, a mobile browser will used a zoomed-out version of my desktop site-->
    
 <div id="slideshow">
    <div>
-     <img class="mySlides" src="images/nature 1.jpg" style="width:1330px; height:600px;">
+     <img class="mySlides" src="images/reusable bag 1.jpg" style="width:1330px; height:610px;">
    </div>
    <div>
-     <img class="mySlides" src="images/nature 2.jpg" style="width:1330px; height:600px;">
-   </div>  
+     <img class="mySlides" src="images/reusable bag 2 wide.jpg" style="width:1330px; height:610px;">
+   </div>
+   <div>
+	 <img class="mySlides" src="images/reusable bag 3 wide.jpg" style="width:1330px; height:600px;">
+   </div>
 </div>
 
 
@@ -53,8 +60,8 @@ this, a mobile browser will used a zoomed-out version of my desktop site-->
 </div>
 <div class="box3"><p>These standard reusable bags are long lasting and are very durable.</p></div>
 <div class="box4"><p>These premium bags come with a special design on them. These bags are guaranteed to be used for a lifetime.</p></div>
-<div class="box5"><h1>Box5</h1></div>
-<div class="box6"><h1>Box6</h1></div>
+<div class="box5"><img src="images/reusable bag 2.jpg" alt="" style="width:175px;height:175px;"></div>
+<div class="box6"><img src="images/reusable bag 3.jpg" alt="" style="width:175px;height:175px;"></div>
 
 
 </div>
